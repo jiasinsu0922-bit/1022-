@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>空中之島 · Sky Island</title><link rel="stylesheet" href="style.css"></head>
+<body><canvas id="game" tabindex="0" aria-label="空中之島 3D 遊戲"></canvas>
+<header><span class="brand">◈ 空中之島 <small>SKY ISLAND / V1</small></span><span id="fps">載入中</span></header>
+<div id="target"></div><div id="toast" role="status"></div>
+<section id="menu"><div class="card"><span class="eyebrow">一座小島，無限的想像</span><h1>空中之島</h1><p>從一塊泥土開始，搭出你的世界。</p><div class="steps">挖 <i>→</i> 掉 <i>→</i> 撿 <i>→</i> 放</div><button id="start" disabled>正在準備小島…</button><p class="controls">W A S D 移動 · 空白鍵跳躍 · 一格高差自動跨上<br>游標指向＋按住左鍵挖掘 · 右鍵點一下放置<br>長按左鍵拖曳／方向鍵轉視角 · 1–8 / 滾輪選方塊<br>Esc 暫停 · F 全螢幕</p><small>掉出小島會回到出生點，背包保留。</small><p id="error" role="alert"></p></div></section>
+<footer><div id="hotbar" aria-label="方塊欄"></div><p>左鍵 挖掘 <b>／</b> 右鍵 放置 <b>／</b> 靠近 撿取 <b>／</b> Esc 暫停</p></footer>
+<script type="module" src="game.js?v=1.1.1"></script></body></html>
+
